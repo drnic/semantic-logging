@@ -1,7 +1,7 @@
 cd ./modules/logstash
-./download.sh
+. download.sh
 cd ../elasticsearch
-./download.sh
+. download.sh
 cd ../..
 echo Done downloading.
 
